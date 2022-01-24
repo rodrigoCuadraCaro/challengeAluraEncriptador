@@ -15,10 +15,10 @@ function encryptWord(){
 
 }
 
-
 function decryptWord(){
     let text = document.getElementById("txtEnc").value;
     console.log(text);
-    document.getElementById("texto").innerHTML =
+    document.getElementById("texto").innerText =
         text.replace(/enter|imes|ai|ober|ufat/g, toReplace => decrypter[toReplace]);
+
 }

@@ -1,16 +1,72 @@
 :root {
+    background-image: url("https://previews.123rf.com/images/swisshippo/swisshippo1510/swisshippo151000136/46152862-egyptian-hieroglyphs-on-the-wall.jpg?fj=1");
+    background-size: 100%;
+}
 
+h1{
+    border-radius: 15px;
+    float: right;
+    margin-right: 25%;
+    width: 50%;
+    color: #470D21;
+    background: #D67D3E;
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     width: 100vh;
+    margin-bottom: 6%;
 }
 
 .tarjeta{
+    display: inline-block;
     width: 100%;
-    padding-top: 25%;
+    padding-top: 15%;
 }
+
+#textoInput {
+    height: 15vh;
+    overflow: auto;
+}
+
+.textBox{
+    height: 27.4vh;
+    width: 50vh;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+p {
+    padding: 5%;
+}
+
+footer {
+    margin-right: 10%;
+    float: right;
+    width: 75%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: right;
+    height: 15vh;
+    color: #470D21;
+    background: #D67D3E;
+    text-align: justify;
+}
+
+.dataBlock{
+    word-wrap: break-word;
+}
+
+#textEgypt{
+    padding: 0.5%;
+}
+
+.image img{
+    height: 100%;
+    float: right;
+}
+
 
